@@ -16,7 +16,8 @@ for root, dirs, files in os.walk(site_dir):
 
             # Inject <base> tag into <head> to fix relative path resolution in iframes
             if soup.head:
-                base_tag = soup.new_tag("base", href=web_app_url)
+                path_to_it = "/".join(filepath.split("/")[1:])
+                base_tag = soup.new_tag("base", href=web_app_url+path_to_it)
                 soup.head.insert(0, base_tag)
 
             # Inline CSS files
