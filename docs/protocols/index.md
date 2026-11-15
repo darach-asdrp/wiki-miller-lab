@@ -3,20 +3,31 @@
     Take them with a grain of salt, but they're a better starting point
     than from "first principles".
 
-## Preparing media, buffers, and other solutions
+# Preparing media, buffers, and other solutions
 
-### Media
+## Media
 
-=== for yeast
+=== "for yeast"
 
-- [YPD](solutions/media/ypd.md)
-- SD
-- 
+    - [YPD](solutions/media/ypd.md)
+    - SD
+    - 
 
-=== for bacteria
+=== "for bacteria"
 
-- LB
+    - [LB](solutions/media/lb.md)
 
-### Antibiotics
+## Antibiotics
 
 For more about these, their preparation and usage, see [Antibiotics](solutions/antibiotics/index.md)
+
+
+# Transformation
+
+=== "of yeast"
+    - [Gietz-style LiAc TRAFO method](transformations/gietz.md)
+
+=== "of bacteria"
+    - [Easily electroporating ecoli](transformations/electro-rt.md)
+
+
