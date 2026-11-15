@@ -43,6 +43,14 @@ for root, dirs, files in os.walk(site_dir):
                             script.clear()
                             script.replace_with(script_tag)
 
+            # gemini gives up:
+            # Force all internal links to open in a clean, top-level new tab
+            for a in soup.find_all("a", href=True):
+                href = a.get("href")
+                if href and not href.startswith("#") and not href.startswith("mailto:") and not href.startswith("javascript:"):
+                    a["target"] = "_blank"
+                    a["rel"] = "noopener noreferrer"
+
             # # those fucking dots
             # for link in soup.find_all("a"):
             #     print(link)

@@ -10,6 +10,12 @@
 enabled = false
 [project.plugins.search]
 enabled = false
+
+[project.markdown_extensions]
+admonition = {}
+pymdownx.details = {}
+pymdownx.superfences = {}
+
 [project]
 use_directory_urls = false
 
@@ -18,19 +24,19 @@ site_url = "https://script.google.com/a/macros/asdrp.org/s/AKfycbzQia5pYurgSWFVu
 nav = [
     { Home = "index.md" },
     { Protocols = "protocols/index.md" },
-    { Protocols_dir = "protocols/" },
+    { Policy = "policy/index.md" },
 ]
 
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Wiki for Miller Lab @ ASDRP"
+site_name = "Wiki for Miller lab @ ASDRP"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "Various bits of useful information"
+site_description = "Resources for researchers"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -198,13 +204,13 @@ features = [
     # When instant navigation is enabled, clicks on all internal links will be
     # intercepted and dispatched via XHR without fully reloading the page.
     # https://zensical.org/docs/setup/navigation/#instant-navigation
-    "navigation.instant",
+    # "navigation.instant",
 
     # With instant prefetching, your site will start to fetch a page once the
     # user hovers over a link. This will reduce the perceived loading time
     # for the user.
     # https://zensical.org/docs/setup/navigation/#instant-prefetching
-    "navigation.instant.prefetch",
+    # "navigation.instant.prefetch",
 
     # In order to provide a better user experience on slow connections when
     # using instant navigation, a progress indicator can be enabled.
