@@ -7,15 +7,15 @@
 
 ## Media
 
-=== "for yeast"
+### for yeast
 
-    - [YPD](solutions/media/ypd.md)
-    - SD
-    - 
+- [YPD](solutions/media/ypd.md)
+- SD
+- 
 
-=== "for bacteria"
+### for bacteria
 
-    - [LB](solutions/media/lb.md)
+- [LB](solutions/media/lb.md)
 
 ## Antibiotics
 
@@ -24,10 +24,12 @@ For more about these, their preparation and usage, see [Antibiotics](solutions/a
 
 # Transformation
 
-=== "of yeast"
-    - [Gietz-style LiAc TRAFO method](transformations/gietz.md)
+## Yeast 
 
-=== "of bacteria"
-    - [Easily electroporating ecoli](transformations/electro-rt.md)
+- [Gietz-style LiAc TRAFO method](transformations/gietz.md)
+
+## Bacteria 
+
+- [Easily electroporating ecoli](transformations/electro-rt.md)
 
 
