@@ -17,7 +17,7 @@
 
 - [Protocols](protocols/index.md) - recipies, instructions, mixes, ... protocol
 - [Policy](policy/index.md)
-- ?
+- [Lab stocks sheet](https://docs.google.com/spreadsheets/d/1YzIqItjAreZvXTo1K4fDwghVnDdomUS_3cK1tQYawts/edit)
 
 # Upcoming:
 
