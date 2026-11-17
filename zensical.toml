@@ -6,10 +6,10 @@
 #
 # ============================================================================
 
-[project.plugins.offline]
-enabled = false
-[project.plugins.search]
-enabled = false
+# [project.plugins.offline]
+# enabled = false
+# [project.plugins.search]
+# enabled = false
 
 [project.markdown_extensions]
 admonition = {}
@@ -19,7 +19,7 @@ pymdownx.tabbed.alternate_style = true
 footnotes = {}
 
 [project]
-use_directory_urls = false
+# use_directory_urls = false
 
 site_url = "https://darach-asdrp.github.com/wiki-miller-lab"
 
