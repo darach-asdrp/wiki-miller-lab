@@ -15,11 +15,13 @@ enabled = false
 admonition = {}
 pymdownx.details = {}
 pymdownx.superfences = {}
+pymdownx.tabbed.alternate_style = true
+footnotes = {}
 
 [project]
 use_directory_urls = false
 
-site_url = "https://script.google.com/a/macros/asdrp.org/s/AKfycbzQia5pYurgSWFVuKUSYlSWNTUdWpt28VS2fk0JkSI/dev"
+site_url = "https://darach-asdrp.github.com/wiki-miller-lab"
 
 nav = [
     { Home = "index.md" },

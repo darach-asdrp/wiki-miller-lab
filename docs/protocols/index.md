@@ -7,29 +7,43 @@
 
 ## Media
 
-### for yeast
+=== "media for yeast"
 
-- [YPD](solutions/media/ypd.md)
-- SD
-- 
+    - [YPD](solutions/media/ypd.md)
+    - SD
+    - 
 
-### for bacteria
+=== "media for bacteria"
 
-- [LB](solutions/media/lb.md)
+    - [LB](solutions/media/lb.md)
 
-## Antibiotics
+### Selective media (antibiotics and nutrients)
 
-For more about these, their preparation and usage, see [Antibiotics](solutions/antibiotics/index.md)
+=== "antibiotics for selecting bacteria"
+
+    - Amp/Carb
+    - Chloramphenicol
+    - Spectinomycin
+    - Zeocin
+
+=== "antibiotics for selecting yeast"
+
+    - G418
+    - CloNat
+    - Hyg
+
+For more about these, their preparation and usage, 
+see [Antibiotics](solutions/antibiotics/index.md)
 
 
-# Transformation
+## Transformation
 
-## Yeast 
+=== "yeast"
 
-- [Gietz-style LiAc TRAFO method](transformations/gietz.md)
+    [Gietz-style LiAc TRAFO method](transformations/gietz.md)
 
-## Bacteria 
+=== "bacteria"
 
-- [Easily electroporating ecoli](transformations/electro-rt.md)
+    [Easily electroporating ecoli](transformations/electro-rt.md)
 
 
